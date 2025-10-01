@@ -17,12 +17,13 @@ import design13 from "../assets/img/design13.jpg";
 import design14 from "../assets/img/design14.jpg";
 import design15 from "../assets/img/design15.jpg";
 import design16 from "../assets/img/design16.jpg";
-import projImg1 from "../assets/img/blakers.jpg";
-import projImg2 from "../assets/img/tec.jpg";
-import projImg3 from "../assets/img/ventis.jpg";
-import projImg4 from "../assets/img/eandelmagazine.jpg";
-import projImg5 from "../assets/img/sradev.jpg";
-import projImg6 from "../assets/img/savepouchAfrica.jpg";
+import projImg1 from "../assets/img/regal-uno.png";
+import projImg2 from "../assets/img/igniteconsults.png";
+import projImg3 from "../assets/img/fogmanagement.png";
+import projImg4 from "../assets/img/arzumiresidence.png";
+import projImg5 from "../assets/img/blakers.jpg";
+import projImg6 from "../assets/img/radarrdigital.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -30,41 +31,41 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Blakers Industries",
-      description: "Building & Construction",
+      title: "Regal Uno",
+      description: "Study Abroad Agency",
       imgUrl: projImg1,
+      url: "https://regal-uno.com.ng/"
+    },
+    {
+      title: "Ignite Consults",
+      description: "Technology & Consultation",
+      imgUrl: projImg2,
+      url: "https://igniteconsults.com/"
+    },
+    {
+      title: "FOG Management",
+      description: "Human Resource Services",
+      imgUrl: projImg3,
+      url: "https://fogmsl.com/"
+    },
+    {
+      title: "Arzumi Residence",
+      description: "Shortlet Services",
+      imgUrl: projImg4,
+      url: "https://arzumiresidence.com/home/"
+    },
+    {
+      title: "Blakers",
+      description: "Engineering & Construction",
+      imgUrl: projImg5,
       url: "https://blakerindustries.com/"
     },
     {
-      title: "Trusted Edge",
-      description: "Business & Consultation",
-      imgUrl: projImg2,
-      url: "https://trustededgeconsult.com/"
-    },
-    {
-      title: "Ventis",
-      description: "Home Services",
-      imgUrl: projImg3,
-      url: "https://www.ventis.com.au/"
-    },
-    {
-      title: "Eandel Magazine",
-      description: "African News",
-      imgUrl: projImg4,
-      url: "https://eandelmagazine.com/eandelmagazine/"
-    },
-    {
-      title: "SRADeV Nigeria",
-      description: "Environmental Sustainablity",
-      imgUrl: projImg5,
-      url: "https://sradev.org/"
-    },
-    {
-      title: "SavePouch Africa",
-      description: "Business & Finance",
+      title: "Radarr Digital",
+      description: "News & PR Publication",
       imgUrl: projImg6,
-      url: "https://savepouchafrica.com"
-    }
+      url: "https://radarr.africa/"
+    },
   ]
 
   const designs = [
