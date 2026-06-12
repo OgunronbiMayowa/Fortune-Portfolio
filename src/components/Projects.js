@@ -17,12 +17,18 @@ import design13 from "../assets/img/design13.jpg";
 import design14 from "../assets/img/design14.jpg";
 import design15 from "../assets/img/design15.jpg";
 import design16 from "../assets/img/design16.jpg";
-import projImg1 from "../assets/img/regal-uno.png";
-import projImg2 from "../assets/img/igniteconsults.png";
-import projImg3 from "../assets/img/fogmanagement.png";
-import projImg4 from "../assets/img/arzumiresidence.png";
-import projImg5 from "../assets/img/blakers.jpg";
-import projImg6 from "../assets/img/radarrdigital.png";
+import projImg1 from "../assets/img/web1.jpg";
+import projImg2 from "../assets/img/web2.jpg";
+import projImg3 from "../assets/img/web3.jpg";
+import projImg4 from "../assets/img/web4.jpg";
+import projImg5 from "../assets/img/web5.jpg";
+import projImg6 from "../assets/img/web6.jpg";
+import projImg7 from "../assets/img/web7.jpg";
+import projImg8 from "../assets/img/web8.jpg";
+import projImg9 from "../assets/img/web9.jpg";
+import projImg10 from "../assets/img/web10.jpg";
+import projImg11 from "../assets/img/web11.jpg";
+import projImg12 from "../assets/img/web12.jpg";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -31,40 +37,76 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Regal Uno",
-      description: "Study Abroad Agency",
+      title: "Novarick Homes",
+      description: "Real Estate Company",
       imgUrl: projImg1,
-      url: "https://regal-uno.com.ng/"
+      url: "https://novarickhomes.com.ng/"
     },
     {
-      title: "Ignite Consults",
-      description: "Technology & Consultation",
+      title: "Under 40 Landlord",
+      description: "Real Estate Initiative",
       imgUrl: projImg2,
-      url: "https://igniteconsults.com/"
+      url: "https://campaign.novarickhomes.com.ng/under-40-landlord/"
     },
     {
-      title: "FOG Management",
-      description: "Human Resource Services",
+      title: "Disability Focus Africa",
+      description: "Non-Profit Organization",
       imgUrl: projImg3,
+      url: "https://disabilityfocusafricana.org/"
+    },
+    {
+      title: "Regent",
+      description: "Real Estate Company",
+      imgUrl: projImg4,
+      url: "http://regentre.co/"
+    },
+    {
+      title: "Manheim Automobile",
+      description: "Car Listing Website",
+      imgUrl: projImg5,
+      url: "https://carlisting.evaluatepr.com/"
+    },
+    {
+      title: "FOG MSL",
+      description: "Management Solutions Company",
+      imgUrl: projImg6,
       url: "https://fogmsl.com/"
     },
     {
-      title: "Arzumi Residence",
-      description: "Shortlet Services",
-      imgUrl: projImg4,
-      url: "https://arzumiresidence.com/home/"
+      title: "Sellerrand",
+      description: "Real Estate Company",
+      imgUrl: projImg7,
+      url: "https://sellerrand.com/"
     },
     {
-      title: "Blakers",
-      description: "Engineering & Construction",
-      imgUrl: projImg5,
-      url: "https://blakerindustries.com/"
+      title: "Regal Uno",
+      description: "Travel Agency",
+      imgUrl: projImg8,
+      url: "https://regal-uno.com.ng/"
     },
     {
-      title: "Radarr Digital",
-      description: "News & PR Publication",
-      imgUrl: projImg6,
-      url: "https://radarr.africa/"
+      title: "Peach Financial",
+      description: "Financial Services Company",
+      imgUrl: projImg9,
+      url: "https://peachfinancial.ng/"
+    },
+    {
+      title: "Prototype NG",
+      description: "Real Estate Company",
+      imgUrl: projImg10,
+      url: "https://prototype.ng/"
+    },
+    {
+      title: "Wisdom Kwati Group",
+      description: "Group of Companies",
+      imgUrl: projImg11,
+      url: "https://www.wisdomkwatigroup.com/"
+    },
+    {
+      title: "Portfolio",
+      description: "Portfolio Website",
+      imgUrl: projImg12,
+      url: "https://mayowabod-portfolio.onrender.com/"
     },
   ]
 
