@@ -194,10 +194,13 @@ export const Projects = () => {
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Website</Nav.Link>
+                  <Nav.Link eventKey="first">Content Writing</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Design</Nav.Link>
+                  <Nav.Link eventKey="second">Content Creation</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="second">Journalism Writing</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
@@ -209,6 +212,20 @@ export const Projects = () => {
                           <ProjectCard 
                             key={index}
                             {...project}
+                          />
+                        )
+                      })
+                    }
+                  </Row>
+                </Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  <Row>
+                    {
+                      designs.map((design, index) => {
+                        return (
+                          <ProjectCard2
+                            key={index}
+                            {...design}
                           />
                         )
                       })
