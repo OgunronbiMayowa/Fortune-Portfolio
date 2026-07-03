@@ -387,7 +387,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -724,9 +724,11 @@ opacity: 0.9;
   /* Projects  */
   .project p {
     width: 76%;
+    font-size: 14px;
+    font-weight: 200;
   }
   .project .nav.nav-pills  {
-    width: 70%;
+    width: 95%;
   }
 
   /* Contact  */
