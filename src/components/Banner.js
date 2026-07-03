@@ -8,7 +8,7 @@ import TrackVisibility from "react-on-screen";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Graphics Designer"];
+  const toRotate = ["Content Writer", "Content Strategist", "Product Manager"];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -49,11 +49,11 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => 
                 <div className={isVisible ? "animate__animated animate__slideInLeft" : ""} >
-                  <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi, I'm Mayowa O.B. `}<span className="wrap">{ text }</span></h1>
-                  <p>A Front-End Developer with strong experience in website development and management, delivering responsive and user-friendly web interfaces. Also experienced in graphics design and digital marketing, creating visually engaging contents that boost online presence and user engagement.</p>
+                  <span className="tagline">Hi, welcome to my portfolio</span>
+                  <h1>{`I'm Fortune Ameachi `}<span className="wrap">{ text }</span></h1>
+                  <p>A results-driven Content Strategist and Product & Sales Manager with over six years of experience developing structured content systems, positioning products, and supporting business growth. Skilled in aligning brand messaging with market needs to improve visibility, engagement, and overall business performance. Experienced in managing digital presence, building strategic content frameworks, and supporting product and sales operations through clear communication and customer-focused execution.</p>
                   {/* <button onClick={() => console.log('connect')}>Download My CV <ArrowRightCircle size={25} /></button> */}
-                  <a href="/MAYOWA OGUNRONBI BABATUNDE CV_20250604_134633_0000.pdf" download style={{ textDecoration: "none" }}>
+                  <a href="\fortune-ameachi-cv.pdf" download style={{ textDecoration: "none" }}>
                     <button>Download My CV  <ArrowRightCircle size={25} /></button>
                   </a>
                 </div>
