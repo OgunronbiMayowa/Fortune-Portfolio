@@ -3,19 +3,15 @@ import { ProjectCard } from "./ProjectCard";
 import { ProjectCard2 } from "./ProjectCard2";
 import { ProjectCard3 } from "./ProjectCard3";
 import projImg1 from "../assets/img/content-writing1.png";
-import projImg2 from "../assets/img/web2.jpg";
-import projImg3 from "../assets/img/web3.jpg";
-import projImg4 from "../assets/img/web4.jpg";
-import projImg5 from "../assets/img/web5.jpg";
-import projImg6 from "../assets/img/web6.jpg";
-import projImg7 from "../assets/img/web7.jpg";
-import projImg8 from "../assets/img/web8.jpg";
-import projImg9 from "../assets/img/web9.jpg";
-import projImg10 from "../assets/img/web10.jpg";
-import projImg11 from "../assets/img/web11.jpg";
-import projImg12 from "../assets/img/web12.jpg";
-import projImg13 from "../assets/img/web12.jpg";
-import projImg14 from "../assets/img/web12.jpg";
+import projImg2 from "../assets/img/content-writing2.png";
+import projImg3 from "../assets/img/content-writing3.png";
+import projImg4 from "../assets/img/content-writing4.png";
+import projImg5 from "../assets/img/content-writing5.png";
+import projImg6 from "../assets/img/content-writing6.png";
+import projImg7 from "../assets/img/content-writing7.png";
+import vid1 from "../assets/img/vid1.png";
+import vid2 from "../assets/img/vid2.png";
+import vid3 from "../assets/img/vid3.png";
 import theNations from "../assets/img/the-nations.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -72,43 +68,43 @@ export const Projects = () => {
     {
       // title: "Novarick Homes",
       description: "Where Creativity Meets Strategy",
-      imgUrl: projImg8,
+      imgUrl: vid1,
       url: "https://vt.tiktok.com/ZSCXpRMGc/"
     },
     {
       // title: "Under 40 Landlord",
       description: "Where Creativity Meets Strategy",
-      imgUrl: projImg8,
+      imgUrl: vid1,
       url: "https://vt.tiktok.com/ZSCXpRMGc/"
     },
     {
       // title: "Disability Focus Africa",
       description: "Content That Captivates",
-      imgUrl: projImg10,
+      imgUrl: vid2,
       url: "https://vt.tiktok.com/ZSCXsd8KE/"
     },
     {
       // title: "Regent",
       description: "Video Content That Performs",
-      imgUrl: projImg11,
+      imgUrl: vid3,
       url: "https://www.instagram.com/reel/DZEuuD_tyrp/?igsh=MW03N2lvdDFzdms5Zw=="
     },
     {
       // title: "Manheim Automobile",
       description: "Content That Captivates",
-      imgUrl: projImg12,
+      imgUrl: vid2,
       url: "https://vt.tiktok.com/ZSCXpTuE2/"
     },
     {
       // title: "FOG MSL",
       description: "Where Creativity Meets Strategy",
-      imgUrl: projImg13,
+      imgUrl: vid1,
       url: "https://www.instagram.com/reel/DV0FReItSii/?igsh=aHhwOW5obmVwNmFt"
     },
     {
       // title: "Sellerrand",
       description: "Video Content That Performs",
-      imgUrl: projImg14,
+      imgUrl: vid3,
       url: "https://vt.tiktok.com/ZSCXsUMYg/"
     }
   ]
